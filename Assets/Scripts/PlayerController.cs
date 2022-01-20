@@ -60,6 +60,9 @@ public class PlayerController : MonoBehaviour
 
             SetCountText();
         }
-       
+        if (other.gameObject.CompareTag("WarpEnter")) 
+        {
+            transform.position = new Vector3(-8.0f, 0.5f, 0.8f);
+        }
     }
 }
