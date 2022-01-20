@@ -665,6 +665,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1450800590089220612, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
   m_PrefabInstance: {fileID: 403132667}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &454224906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1450800590089220617, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
+  m_PrefabInstance: {fileID: 1129782989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &454224912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454224906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c8b1d5c5d176d439354e50772a8809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1001 &511888283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,15 +1427,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1450800590089220612, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.82
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1450800590089220612, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 1450800590089220612, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.28
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1450800590089220612, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2516,5 +2534,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1007920807310011234, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 11a9392ab549e6b4b81a0f2ec06bd63e, type: 3}
